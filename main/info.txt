@@ -27,6 +27,6 @@ git remote           #查看远程仓库的信息
 git remote -v        #查看远程仓库的详细信息
 
 
-git remote add origin https://github.com/liuyaorong/远程版本库名称.git
-git clone https://github.com/liuyaorong/远程版本库名称.git  #从远程仓库中克隆到本地
-git push -u(仅限第一次使用-u) origin 版本库名称(master) #Git会把该分支推送到远程仓库对应的远程分支上
+git remote add origin https://github.com/liuyaorong/远程版本库名称.git	#关联一个远程仓库  
+git clone https://github.com/liuyaorong/远程版本库名称.git 				#从远程仓库中克隆到本地
+git push -u(仅限第一次使用-u) origin 版本库名称(master) 				#Git会把该分支推送到远程仓库对应的远程分支上
