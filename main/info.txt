@@ -1,6 +1,6 @@
 ﻿Git 使用的常用命令：
 
-git init	#初始化本地版本库
+git init		#初始化本地版本库
 git add	XXX         #将XXX文件添加到暂存区
 git commit -m "修改的内容描述"  #提交修改操作，此时会将修改的内容提交到版本库中
 git status          #查看仓库的状态
